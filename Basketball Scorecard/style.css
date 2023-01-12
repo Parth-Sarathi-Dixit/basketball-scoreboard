@@ -1,0 +1,87 @@
+body {
+    background-color: #088f54;
+    margin: 0;
+    text-align: center;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.container {
+    border: 15px solid #9AABD8;
+    border-radius: 2%;
+    background: #1B244A;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.score-box{
+    color: #F94F6D;
+    margin: auto;
+    background-color: #080001;
+    font-family: 'Orbitron', sans-serif;
+    height: 100px;
+    width: 130px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+.score-box p{
+    font-size: 4rem;
+    margin: auto;
+    padding: auto;
+    padding-top: 10px;
+}
+
+.point-box{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    border: 2px solid #9AABD8;
+    border-radius: 10%;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    margin: 10px 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 40px;
+}
+
+.points p{
+    color: #9AABD8;
+    font-family: 'Orbitron', sans-serif;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.container h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.clear-btn{
+    border: 2px solid #9AABD8;
+    border-radius: 30px;
+    width: 40%;
+    height: 60px;
+}
+
+.clear-btn p{
+    color: #9AABD8;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-top: 10px;
+}
